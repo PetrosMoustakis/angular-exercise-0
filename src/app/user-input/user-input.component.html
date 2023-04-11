@@ -1,0 +1,9 @@
+<div class="m-4 border border-2 border-primary">
+    <p class="m-3">Γράψτε μια λέξη</p>
+
+    <div class="m-2 p-2">
+        <input class="form-control" [(ngModel)]="word">
+    </div>
+
+    <button (click)="onSubmit(word)" class="btn btn-primary m-3"> Υποβολή</button>
+</div>

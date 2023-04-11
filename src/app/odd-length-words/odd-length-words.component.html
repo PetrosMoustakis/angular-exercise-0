@@ -1,0 +1,11 @@
+<div class="border border-2 border-primary p-2">
+    <p><b>Λέξεις με μονό μήκος</b></p>
+
+    <ul>
+        <li *ngFor="let word of odd;">{{ word }}</li>
+    </ul>
+
+    <div *ngIf="odd.length === 0 ">
+        Δεν υπάρχει λέξη
+    </div>
+</div>

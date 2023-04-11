@@ -1,0 +1,11 @@
+<div class="border border-2 border-primary p-2">
+    <p><b>Λέξεις με ζυγό μήκος</b></p>
+
+    <ul>
+        <li *ngFor="let word of even;"> {{ word }} </li>
+    </ul>
+
+    <div *ngIf="even.length === 0 ">
+        Δεν υπάρχει λέξη
+    </div>
+</div>
